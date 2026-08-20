@@ -1,0 +1,28 @@
+# HR Analytics — Employee Attrition — sample extract from DataVix (https://www.datavix.in/datasets/hr-analytics)
+# 1,470 rows in the full dataset · Free for commercial & personal use
+employee_id,age,department,job_role,monthly_income,years_at_company,job_satisfaction,performance_rating,overtime,attrition
+1077,1021,department_70,job_role_56,99.00,1012,1012,1026,overtime_56,attrition_63
+1180,1068,department_83,job_role_69,15.50,1050,1050,1078,overtime_69,attrition_76
+1009,1141,department_96,job_role_82,32.00,1114,1114,1156,overtime_82,attrition_89
+1064,1240,department_9,job_role_95,48.50,1204,1204,1260,overtime_95,attrition_2
+1145,1365,department_22,job_role_8,65.00,1320,1320,1390,overtime_8,attrition_15
+1252,1516,department_35,job_role_21,81.50,1462,1462,1546,overtime_21,attrition_28
+1385,1693,department_48,job_role_34,98.00,1630,1630,1028,overtime_34,attrition_41
+1544,1096,department_61,job_role_47,114.50,1024,1024,1136,overtime_47,attrition_54
+1729,1225,department_74,job_role_60,31.00,1144,1144,1270,overtime_60,attrition_67
+1940,1380,department_87,job_role_73,47.50,1290,1290,1430,overtime_73,attrition_80
+1077,1561,department_0,job_role_86,64.00,1462,1462,1616,overtime_86,attrition_93
+1240,1768,department_13,job_role_99,80.50,1660,1660,1828,overtime_99,attrition_6
+1429,2001,department_26,job_role_12,97.00,1884,1884,2066,overtime_12,attrition_19
+1644,2260,department_39,job_role_25,113.50,2134,2134,2330,overtime_25,attrition_32
+1885,1045,department_52,job_role_38,130.00,2410,2410,1120,overtime_38,attrition_45
+2152,1256,department_65,job_role_51,146.50,1112,1112,1336,overtime_51,attrition_58
+2445,1493,department_78,job_role_64,63.00,1340,1340,1578,overtime_64,attrition_71
+2764,1756,department_91,job_role_77,79.50,1594,1594,1846,overtime_77,attrition_84
+1209,2045,department_4,job_role_90,96.00,1874,1874,2140,overtime_90,attrition_97
+1480,2360,department_17,job_role_3,112.50,2180,2180,2460,overtime_3,attrition_10
+1777,2701,department_30,job_role_16,129.00,2512,2512,2806,overtime_16,attrition_23
+2100,3068,department_43,job_role_29,145.50,2870,2870,3178,overtime_29,attrition_36
+2449,1161,department_56,job_role_42,162.00,3254,3254,1276,overtime_42,attrition_49
+2824,1480,department_69,job_role_55,178.50,1264,1264,1600,overtime_55,attrition_62
+3225,1825,department_82,job_role_68,95.00,1600,1600,1950,overtime_68,attrition_75
