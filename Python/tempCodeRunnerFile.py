@@ -1,3 +1,1 @@
-determiner=(1980,1990)
-# print(determiner)
-# print("type",type(determiner))
+text1=       "          Welcome to may profile "
