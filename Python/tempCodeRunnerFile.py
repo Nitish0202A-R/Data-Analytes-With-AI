@@ -1,1 +1,5 @@
-text1=       "          Welcome to may profile "
+City= "Bihar"
+if City=="Bihar":
+    print("Right City")
+else:
+    print("Not Right City")
