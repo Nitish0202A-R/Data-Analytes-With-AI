@@ -58,3 +58,8 @@ for n in num:
 number=[0,11]
 for n in number:
     print(n)
+
+# int="hello"
+# for b in range(0,11):
+#     print(int)
+
