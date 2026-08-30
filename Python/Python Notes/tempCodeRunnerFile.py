@@ -1,0 +1,2 @@
+password = ""
+attempts = 0
