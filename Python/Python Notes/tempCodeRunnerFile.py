@@ -1,2 +1,0 @@
-password = ""
-attempts = 0
