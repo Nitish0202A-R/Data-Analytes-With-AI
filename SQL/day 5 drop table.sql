@@ -71,10 +71,10 @@ CREATE TABLE users(
 --Insert 5 Sample Users into The Users table
 INSERT INTO users(User_id, Name, Email, Age, City)
 VALUES
-(1,'Nitish Kumar','nitish12@gmail.com',24,'Patna'),
-(2, 'Aarit Kumar', 'aarit1@gmail.com', 23, 'Bihar'),
-(101, 'Rohit Kumar', 'rohit13@gmail.com', 21, 'Saran'),
-(102, 'Ravi Kumar', 'ravi1@gmail.com', 20, 'Chapra');
+	(1,'Nitish Kumar','nitish12@gmail.com',24,'Patna'),
+	(2, 'Aarit Kumar', 'aarit1@gmail.com', 23, 'Bihar'),
+	(101, 'Rohit Kumar', 'rohit13@gmail.com', 21, 'Saran'),
+	(102, 'Ravi Kumar', 'ravi1@gmail.com', 20, 'Chapra');
 
 
 SELECT * FROM users;
@@ -114,6 +114,74 @@ WHERE email LIKE '%@gmail.com'
 
 -- How to arange order
 SELECT * FROM users ORDER BY user_id ASC;
+
+
+--How to delete data 
+
+DELETE FROM users WHERE user_id=6;
+
+
+-- SQL mein IN ka use multiple values ko check karne ke liye hota hai
+
+DELETE FROM users WHERE user_id IN (105,103,100,104);
+
+
+-- more data add
+
+INSERT INTO users (User_id, Name, Email, Age, City)
+VALUES
+(106, 'Aman Kumar', 'aman@gmail.com', 24, 'Delhi'),
+(107, 'Priya Singh', 'priya@gmail.com', 22, 'Mumbai'),
+(108, 'Neha Kumari', 'neha@gmail.com', 23, 'Patna');
+
+
+SELECT * FROM customers ORDER BY user_id ASC;
+
+
+-- To Rename The Name colume
+
+ALTER TABLE users
+RENAME COLUMN name TO Username;
+
+
+
+-- age column change the data type from INT TO SmallInt
+ALTER TABLE users
+ALTER COLUMN age TYPE SMALLINT;
+
+
+
+-- To add a NOT NULL CONSTRAINT city column
+
+ALTER TABLE users
+ALTER COLUMN city SET NOT NULL;
+
+
+-- Adding CHECK Constraint to age column
+
+
+ALTER TABLE users
+ADD CONSTRAINT age CHECK(age>=18);
+
+INSERT INTO users (User_id, username, Email, Age, City)
+VALUES
+(110, 'Abhi', 'abhi12@gmail.com', 17, 'Patna');
+
+-- How can DROP one by one Table 
+
+
+ALTER TABLE users
+DROP CONSTRAINT age;
+
+
+
+-- HOW to change to ALTER TABLE NAme 
+
+ALTER TABLE users
+RENAME TO customers;
+
+
+
 
 
 
