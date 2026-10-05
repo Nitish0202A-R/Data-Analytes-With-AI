@@ -37,6 +37,7 @@
 # print("year",year)
 
 name="rohit shamer"
-fast=name[0:5]
-print("first name",fast)
+show=name[0:5]
+print("first name",show)
+
 
